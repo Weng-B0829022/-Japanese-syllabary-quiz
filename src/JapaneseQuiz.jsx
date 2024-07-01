@@ -150,7 +150,7 @@ const JapaneseQuiz = () => {
     return (
         <div style={containerStyle}>
         <div style={cardStyle}>
-            <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>日語五十音測驗</h1>
+            <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>測驗</h1>
             {gameState === 'init' && (
             <div>
                 <input 
